@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esturricadinho — Cozinha Portuguesa em Corroios</title>
+  <meta name="description" content="Esturricadinho, cozinha portuguesa autêntica em Corroios. Choco frito, secretos de porco ibérico e mousse de lima. Av. da Liberdade 78, Corroios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner container">
+      <a class="brand" href="#inicio" aria-label="Esturricadinho — início">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span class="brand-text">
+          Esturricadinho
+          <small data-pt="Corroios · Portugal" data-en="Corroios · Portugal">Corroios · Portugal</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#casa" data-pt="A casa" data-en="The house">A casa</a>
+        <a href="#menu" data-pt="Menu" data-en="Menu">Menu</a>
+        <a href="#fotos" data-pt="Fotografias" data-en="Photos">Fotografias</a>
+        <a href="#avaliacoes" data-pt="Avaliações" data-en="Reviews">Avaliações</a>
+        <a href="#visitar" data-pt="Visitar" data-en="Visit">Visitar</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Mudar de idioma / Switch language">EN</button>
+        <a class="btn btn-primary btn-sm header-cta" href="tel:+351927436214" data-pt="Reservar" data-en="Book">Reservar</a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-media">
+        <img src="https://images.pexels.com/photos/19615775/pexels-photo-19615775.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800" alt="Peixe grelhado servido num prato azul com legumes assados" fetchpriority="high">
+      </div>
+      <div class="container hero-inner">
+        <p class="eyebrow eyebrow-light" data-pt="Corroios · Cozinha portuguesa" data-en="Corroios · Portuguese kitchen">Corroios · Cozinha portuguesa</p>
+        <h1>Esturricadinho</h1>
+        <p class="hero-lead" data-pt="Choco frito estaladiço, secretos de porco ibérico na brasa e peixe do dia. Cozinha portuguesa autêntica, servida com calma e porções generosas — a poucos minutos de Lisboa." data-en="Crisp fried cuttlefish, Iberian pork from the grill and the fish of the day. Honest Portuguese cooking, generous portions and no rush — minutes from Lisbon.">Choco frito estaladiço, secretos de porco ibérico na brasa e peixe do dia. Cozinha portuguesa autêntica, servida com calma e porções generosas — a poucos minutos de Lisboa.</p>
+
+        <div class="hero-rating">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <strong>4,8</strong>
+          <span data-pt="87 avaliações no Google" data-en="87 Google reviews">87 avaliações no Google</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:+351927436214" data-pt="Reservar mesa" data-en="Book a table">Reservar mesa</a>
+          <a class="btn btn-ghost" href="#menu" data-pt="Ver o menu" data-en="See the menu">Ver o menu</a>
+        </div>
+
+        <ul class="hero-facts">
+          <li><span class="dot" aria-hidden="true"></span><span data-pt="Aberto hoje até às 15:00" data-en="Open today until 3 pm">Aberto hoje até às 15:00</span></li>
+          <li><span class="dot" aria-hidden="true"></span><span data-pt="Dine-in · Takeaway · Delivery" data-en="Dine-in · Takeaway · Delivery">Dine-in · Takeaway · Delivery</span></li>
+          <li><span class="dot" aria-hidden="true"></span><span data-pt="€15–20 por pessoa" data-en="€15–20 per person">€15–20 por pessoa</span></li>
+        </ul>
+      </div>
+      <a class="scroll-hint" href="#casa" aria-label="Descer">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- INFO STRIP -->
+    <section class="info-strip">
+      <div class="container info-grid">
+        <div class="info-item" data-reveal>
+          <span class="info-label" data-pt="Avaliação" data-en="Rating">Avaliação</span>
+          <span class="info-value">4,8 <span class="info-sub">/ 5</span></span>
+          <span class="info-meta" data-pt="87 avaliações" data-en="87 reviews">87 avaliações</span>
+        </div>
+        <div class="info-item" data-reveal>
+          <span class="info-label" data-pt="Preço médio" data-en="Average spend">Preço médio</span>
+          <span class="info-value">€15–20</span>
+          <span class="info-meta" data-pt="por pessoa" data-en="per person">por pessoa</span>
+        </div>
+        <div class="info-item" data-reveal>
+          <span class="info-label" data-pt="Morada" data-en="Address">Morada</span>
+          <span class="info-value">Av. da Liberdade 78</span>
+          <span class="info-meta">2855-385 Corroios</span>
+        </div>
+        <div class="info-item" data-reveal>
+          <span class="info-label" data-pt="Reservas" data-en="Bookings">Reservas</span>
+          <a class="info-value info-link" href="tel:+351927436214">927 436 214</a>
+          <span class="info-meta" data-pt="Ligue e reserve" data-en="Call to book">Ligue e reserve</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="casa">
+      <div class="container about-grid">
+        <div class="about-media" data-reveal>
+          <img src="https://images.pexels.com/photos/19343312/pexels-photo-19343312.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Mesa de madeira num restaurante acolhedor, iluminada por um candeeiro vermelho" loading="lazy">
+          <div class="floating-card">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <strong>4,8</strong>
+            <span data-pt="87 avaliações no Google" data-en="87 Google reviews">87 avaliações no Google</span>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow" data-pt="A casa" data-en="The house">A casa</p>
+          <h2 data-pt="Comida de tasca, feita com tempo." data-en="Tasca food, made with time.">Comida de tasca, feita com tempo.</h2>
+          <p data-pt="O Esturricadinho é daquelas casas que se encontram cada vez menos: uma sala pequena e acolhedora, uma cozinha sem pressa e pratos que sabem a Portugal — sem turismo à mistura." data-en="Esturricadinho is one of those places that are getting harder to find: a small, welcoming room, a kitchen with no rush and plates that taste of Portugal — no tourist gloss.">O Esturricadinho é daquelas casas que se encontram cada vez menos: uma sala pequena e acolhedora, uma cozinha sem pressa e pratos que sabem a Portugal — sem turismo à mistura.</p>
+          <p data-pt="O choco frito sai estaladiço por fora e tenro por dentro, os secretos de porco ibérico passam pela brasa e a mousse de lima fecha a refeição como deve ser. As porções são generosas, há opções vegetarianas e quem chega de fora é recebido como quem chega a casa." data-en="The fried cuttlefish comes out crisp outside and tender within, the Iberian pork goes over the grill, and the lime mousse finishes the meal the way it should. Portions are generous, there are vegetarian options, and visitors are welcomed like family.">O choco frito sai estaladiço por fora e tenro por dentro, os secretos de porco ibérico passam pela brasa e a mousse de lima fecha a refeição como deve ser. As porções são generosas, há opções vegetarianas e quem chega de fora é recebido como quem chega a casa.</p>
+
+          <ul class="feature-list">
+            <li data-pt="Cozinha portuguesa autêntica" data-en="Authentic Portuguese cooking">Cozinha portuguesa autêntica</li>
+            <li data-pt="Porções generosas" data-en="Generous portions">Porções generosas</li>
+            <li data-pt="Opções vegetarianas" data-en="Vegetarian options">Opções vegetarianas</li>
+            <li data-pt="Menu em português, equipa ajuda em inglês" data-en="Portuguese menu, English-speaking staff">Menu em português, equipa ajuda em inglês</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-pt="Menu" data-en="Menu">Menu</p>
+            <h2 data-pt="Da nossa cozinha" data-en="From our kitchen">Da nossa cozinha</h2>
+          </div>
+          <p class="section-note" data-pt="Menu indicativo — a carta muda com o mercado. Preços médios de €15–20 por pessoa." data-en="An indicative menu — the card changes with the market. Average spend €15–20 per person.">Menu indicativo — a carta muda com o mercado. Preços médios de €15–20 por pessoa.</p>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-col" data-reveal>
+            <h3 data-pt="Para começar" data-en="To start">Para começar</h3>
+            <ul class="dish-list">
+              <li>
+                <div class="dish-head"><span class="dish-name">Pão, azeitonas e azeite</span></div>
+                <p class="dish-desc" data-pt="Pão de aldeia, azeitonas e azeite novo da região." data-en="Country bread, olives and new-season olive oil.">Pão de aldeia, azeitonas e azeite novo da região.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Amêijoas à Bulhão Pato</span></div>
+                <p class="dish-desc" data-pt="Amêijoas, alho, coentros e vinho branco." data-en="Clams with garlic, coriander and white wine.">Amêijoas, alho, coentros e vinho branco.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Queijo e presunto</span></div>
+                <p class="dish-desc" data-pt="Queijo curado e presunto ibérico fatiado fino." data-en="Cured cheese and thinly sliced Iberian ham.">Queijo curado e presunto ibérico fatiado fino.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Peixinhos da horta</span></div>
+                <p class="dish-desc" data-pt="Feijão-verde em polme leve, com limão." data-en="Green beans in a light batter, with lemon.">Feijão-verde em polme leve, com limão.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-col menu-col-wide" data-reveal>
+            <h3 data-pt="Pratos" data-en="Mains">Pratos</h3>
+            <ul class="dish-list">
+              <li class="dish-signature">
+                <div class="dish-head">
+                  <span class="dish-name">Choco Frito com Salada</span>
+                  <span class="tag" data-pt="O mais pedido" data-en="Most ordered">O mais pedido</span>
+                </div>
+                <p class="dish-desc" data-pt="Choco tenro em polme estaladiço, salada fresca e limão." data-en="Tender cuttlefish in a crisp batter, fresh salad and lemon.">Choco tenro em polme estaladiço, salada fresca e limão.</p>
+              </li>
+              <li class="dish-signature">
+                <div class="dish-head">
+                  <span class="dish-name">Secretos de Porco Ibérico</span>
+                  <span class="tag" data-pt="Na brasa" data-en="From the grill">Na brasa</span>
+                </div>
+                <p class="dish-desc" data-pt="Secretos na brasa, batata frita e salada." data-en="Grilled Iberian pork, fries and salad.">Secretos na brasa, batata frita e salada.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Bacalhau à Brás</span></div>
+                <p class="dish-desc" data-pt="Bacalhau desfiado, ovo, cebola e batata palha." data-en="Shredded salt cod with egg, onion and straw potatoes.">Bacalhau desfiado, ovo, cebola e batata palha.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Sardinhas Assadas</span></div>
+                <p class="dish-desc" data-pt="Sardinhas na brasa, pimento assado e batata cozida." data-en="Grilled sardines, roast pepper and boiled potatoes.">Sardinhas na brasa, pimento assado e batata cozida.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name" data-pt="Prato vegetariano do dia" data-en="Vegetarian plate of the day">Prato vegetariano do dia</span></div>
+                <p class="dish-desc" data-pt="Legumes da horta, leguminosas e ervas frescas." data-en="Market vegetables, pulses and fresh herbs.">Legumes da horta, leguminosas e ervas frescas.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-col" data-reveal>
+            <h3 data-pt="Sobremesas" data-en="Desserts">Sobremesas</h3>
+            <ul class="dish-list">
+              <li class="dish-signature">
+                <div class="dish-head">
+                  <span class="dish-name">Mousse de Lima</span>
+                  <span class="tag" data-pt="Assinatura" data-en="Signature">Assinatura</span>
+                </div>
+                <p class="dish-desc" data-pt="Leve, ácida q.b., servida bem fria." data-en="Light, just tart enough, served well chilled.">Leve, ácida q.b., servida bem fria.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Pastel de nata</span></div>
+                <p class="dish-desc" data-pt="Direto do forno, com canela." data-en="Straight from the oven, with cinnamon.">Direto do forno, com canela.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Arroz doce</span></div>
+                <p class="dish-desc" data-pt="Cremoso, com casca de limão e canela." data-en="Creamy, with lemon zest and cinnamon.">Cremoso, com casca de limão e canela.</p>
+              </li>
+              <li>
+                <div class="dish-head"><span class="dish-name">Mousse de chocolate</span></div>
+                <p class="dish-desc" data-pt="Chocolate negro e uma pitada de flor de sal." data-en="Dark chocolate with a pinch of sea salt.">Chocolate negro e uma pitada de flor de sal.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="menu-footnote" data-pt="Tem alguma alergia ou restrição? Fale com a equipa — ajudamos a escolher." data-en="Allergies or dietary needs? Ask the team — we'll help you choose.">Tem alguma alergia ou restrição? Fale com a equipa — ajudamos a escolher.</p>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="section photos" id="fotos">
+      <div class="container">
+        <div class="section-head section-head-center">
+          <p class="eyebrow" data-pt="Fotografias" data-en="Photos">Fotografias</p>
+          <h2 data-pt="À mesa" data-en="At the table">À mesa</h2>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo" data-reveal>
+            <img src="https://images.pexels.com/photos/32561233/pexels-photo-32561233.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Sardinhas assadas numa grelha, à moda de Lisboa" loading="lazy">
+            <figcaption data-pt="Sardinhas na brasa" data-en="Sardines from the grill">Sardinhas na brasa</figcaption>
+          </figure>
+          <figure class="photo" data-reveal>
+            <img src="https://images.pexels.com/photos/32153517/pexels-photo-32153517.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Choco frito dourado com salada e limão" loading="lazy">
+            <figcaption data-pt="Choco frito com salada" data-en="Fried cuttlefish with salad">Choco frito com salada</figcaption>
+          </figure>
+          <figure class="photo" data-reveal>
+            <img src="https://images.pexels.com/photos/28617325/pexels-photo-28617325.jpeg?auto=compress&amp;cs=tinysrgb&w=1000" alt="Carne grelhada com batata frita e salada" loading="lazy">
+            <figcaption data-pt="Secretos de porco ibérico" data-en="Iberian pork secretos">Secretos de porco ibérico</figcaption>
+          </figure>
+          <figure class="photo" data-reveal>
+            <img src="https://images.pexels.com/photos/36737341/pexels-photo-36737341.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Pastéis de nata acabados de sair do forno" loading="lazy">
+            <figcaption data-pt="Pastel de nata" data-en="Pastel de nata">Pastel de nata</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section reviews" id="avaliacoes">
+      <div class="container">
+        <div class="reviews-head">
+          <div>
+            <p class="eyebrow" data-pt="Avaliações" data-en="Reviews">Avaliações</p>
+            <h2 data-pt="4,8 em 87 avaliações" data-en="4.8 from 87 reviews">4,8 em 87 avaliações</h2>
+            <p class="section-note" data-pt="O que dizem quem já cá comeu, no Google." data-en="What guests say on Google.">O que dizem quem já cá comeu, no Google.</p>
+          </div>
+          <div class="rating-badge" data-reveal>
+            <span class="rating-number">4,8</span>
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span class="rating-meta" data-pt="87 avaliações" data-en="87 reviews">87 avaliações</span>
+          </div>
+        </div>
+
+        <ul class="review-tags">
+          <li data-pt="comida portuguesa autêntica" data-en="authentic Portuguese food">comida portuguesa autêntica</li>
+          <li data-pt="ambiente acolhedor" data-en="welcoming atmosphere">ambiente acolhedor</li>
+          <li data-pt="mousse de lima" data-en="lime mousse">mousse de lima</li>
+          <li data-pt="secretos de porco ibérico" data-en="Iberian pork secretos">secretos de porco ibérico</li>
+          <li data-pt="porções generosas" data-en="generous portions">porções generosas</li>
+        </ul>
+
+        <div class="review-grid">
+          <article class="review-card" data-reveal>
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <blockquote>“This place was amazing. Menus were only in Portuguese and only some staff spoke English, but they were all wonderful. It has been hard to find authentic food around the tourist areas, this place was worth the drive. We had Iberian pork…”</blockquote>
+            <footer>
+              <span class="avatar" aria-hidden="true">TP</span>
+              <div>
+                <strong>Tyler Paturel</strong>
+                <span class="review-meta">Local Guide · 60 reviews · há um ano</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="review-card" data-reveal>
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <blockquote>“Really nice place, a cute setting with friendly service. Good food &amp; generous portions. Vegetarian options.”</blockquote>
+            <footer>
+              <span class="avatar" aria-hidden="true">OB</span>
+              <div>
+                <strong>OZ BF</strong>
+                <span class="review-meta">Local Guide · 195 reviews · há um ano</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="review-card" data-reveal>
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <blockquote>“Amazing place, I recommend for tourists and locals. The food is amazing, it’s authentic Portuguese food which is hard to find nowadays that tastes this good.”</blockquote>
+            <footer>
+              <span class="avatar" aria-hidden="true">MD</span>
+              <div>
+                <strong>Melissa Dragneel</strong>
+                <span class="review-meta">9 reviews · há 10 meses</span>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="section visit" id="visitar">
+      <div class="container visit-grid">
+        <div class="visit-copy">
+          <p class="eyebrow" data-pt="Visitar" data-en="Visit">Visitar</p>
+          <h2 data-pt="Onde nos encontra" data-en="Where to find us">Onde nos encontra</h2>
+
+          <dl class="visit-details">
+            <div>
+              <dt data-pt="Morada" data-en="Address">Morada</dt>
+              <dd>Av. da Liberdade 78<br>2855-385 Corroios, Portugal</dd>
+            </div>
+            <div>
+              <dt data-pt="Telefone" data-en="Phone">Telefone</dt>
+              <dd><a href="tel:+351927436214">927 436 214</a></dd>
+            </div>
+            <div>
+              <dt data-pt="Horário" data-en="Hours">Horário</dt>
+              <dd>
+                <span data-pt="Aberto ao almoço · encerra às 15:00" data-en="Open at lunch · closes 3 pm">Aberto ao almoço · encerra às 15:00</span>
+                <small data-pt="Horário sujeito a confirmação — ligue antes de visitar." data-en="Hours may vary — please call before visiting.">Horário sujeito a confirmação — ligue antes de visitar.</small>
+              </dd>
+            </div>
+            <div>
+              <dt data-pt="Serviços" data-en="Services">Serviços</dt>
+              <dd data-pt="Dine-in · Takeaway · Delivery" data-en="Dine-in · Takeaway · Delivery">Dine-in · Takeaway · Delivery</dd>
+            </div>
+            <div>
+              <dt data-pt="Online" data-en="Online">Online</dt>
+              <dd><a href="https://esturricadinho.pt" target="_blank" rel="noopener">esturricadinho.pt</a> · <a href="https://www.thefork.pt/" target="_blank" rel="noopener">thefork.pt</a></dd>
+            </div>
+          </dl>
+
+          <div class="visit-actions">
+            <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.+da+Liberdade+78,+2855-385+Corroios,+Portugal" target="_blank" rel="noopener" data-pt="Direções" data-en="Directions">Direções</a>
+            <a class="btn btn-outline" href="tel:+351927436214" data-pt="Ligar agora" data-en="Call now">Ligar agora</a>
+          </div>
+        </div>
+
+        <div class="visit-map" data-reveal>
+          <iframe
+            src="https://maps.google.com/maps?q=Av.%20da%20Liberdade%2078%2C%202855-385%20Corroios%2C%20Portugal&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+            title="Mapa — Esturricadinho, Av. da Liberdade 78, Corroios"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVE BAND -->
+    <section class="reserve-band">
+      <div class="container reserve-inner">
+        <p class="eyebrow eyebrow-light" data-pt="Reservas" data-en="Bookings">Reservas</p>
+        <h2 data-pt="Reserve a sua mesa" data-en="Book your table">Reserve a sua mesa</h2>
+        <p class="reserve-lead" data-pt="Almoços em família, jantares de amigos ou uma mesa só para dois. Ligue — respondemos entre o serviço." data-en="Family lunches, dinners with friends or a table for two. Give us a call — we answer between services.">Almoços em família, jantares de amigos ou uma mesa só para dois. Ligue — respondemos entre o serviço.</p>
+        <a class="reserve-phone" href="tel:+351927436214">927 436 214</a>
+        <p class="reserve-alt" data-pt="ou reserve online em <a href=&quot;https://www.thefork.pt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>thefork.pt</a>" data-en="or book online at <a href=&quot;https://www.thefork.pt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>thefork.pt</a>">ou reserve online em <a href="https://www.thefork.pt/" target="_blank" rel="noopener">thefork.pt</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">E</span>
+          <span class="brand-text">Esturricadinho<small data-pt="Cozinha portuguesa · Corroios" data-en="Portuguese kitchen · Corroios">Cozinha portuguesa · Corroios</small></span>
+        </a>
+        <p data-pt="Choco frito, secretos na brasa e mousse de lima. Uma tasca de bairro a poucos minutos de Lisboa." data-en="Fried cuttlefish, pork from the grill and lime mousse. A neighbourhood tasca minutes from Lisbon.">Choco frito, secretos na brasa e mousse de lima. Uma tasca de bairro a poucos minutos de Lisboa.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-pt="Contactos" data-en="Contact">Contactos</h4>
+        <ul>
+          <li>Av. da Liberdade 78<br>2855-385 Corroios</li>
+          <li><a href="tel:+351927436214">927 436 214</a></li>
+          <li><a href="https://esturricadinho.pt" target="_blank" rel="noopener">esturricadinho.pt</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-pt="Navegar" data-en="Explore">Navegar</h4>
+        <ul>
+          <li><a href="#casa" data-pt="A casa" data-en="The house">A casa</a></li>
+          <li><a href="#menu" data-pt="Menu" data-en="Menu">Menu</a></li>
+          <li><a href="#avaliacoes" data-pt="Avaliações" data-en="Reviews">Avaliações</a></li>
+          <li><a href="#visitar" data-pt="Visitar" data-en="Visit">Visitar</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-pt="Horário" data-en="Hours">Horário</h4>
+        <ul>
+          <li data-pt="Almoço — encerra às 15:00" data-en="Lunch — closes at 3 pm">Almoço — encerra às 15:00</li>
+          <li data-pt="Confirme por telefone" data-en="Please call to confirm">Confirme por telefone</li>
+          <li data-pt="Dine-in · Takeaway · Delivery" data-en="Dine-in · Takeaway · Delivery">Dine-in · Takeaway · Delivery</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Esturricadinho</p>
+      <p data-pt="Fotografias ilustrativas · <a href=&quot;https://www.pexels.com/license/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>Pexels</a>" data-en="Illustrative photography · <a href=&quot;https://www.pexels.com/license/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>Pexels</a>">Fotografias ilustrativas · <a href="https://www.pexels.com/license/" target="_blank" rel="noopener">Pexels</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
